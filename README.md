@@ -15,6 +15,7 @@ Ele responde perguntas frequentes como:
 - Quem é o coach?
 - Últimas contratações
 - Informações gerais da organização
+- Entre outras perguntas
 
 ---
 
