@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container {
+  max-width: 600px;
+  width: 90%;
+  background: #121212;
+  border: 2px solid #00ffcc;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 15px #00ffcc44;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #00ffcc;
+  text-shadow: 0 0 5px #00ffcc;
+}
+
+.chatbox {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #00ffcc33;
+  display: flex;
+  flex-direction: column;
+}
+
+.mensagens {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  padding-right: 5px;
+  scroll-behavior: smooth;
+}
+
+.mensagens::-webkit-scrollbar {
+  width: 6px;
+}
+.mensagens::-webkit-scrollbar-thumb {
+  background-color: #00ffcc;
+  border-radius: 10px;
+}
+
+.usuario, .bot {
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 6px;
+  max-width: 80%;
+  word-wrap: break-word;
+  font-size: 0.95rem;
+}
+
+.usuario {
+  background: #00ffcc22;
+  color: #00ffcc;
+  align-self: flex-end;
+}
+
+.bot {
+  background: #ffcc0033;
+  color: #ffcc00;
+  align-self: flex-start;
+}
+
+.entrada {
+  display: flex;
+  gap: 10px;
+}
+
+.entrada input {
+  flex-grow: 1;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #262626;
+  color: white;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.entrada input::placeholder {
+  color: #888;
+}
+
+.entrada button {
+  background: #00ffcc;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.entrada button:hover {
+  background: #00ddb3;
+}
