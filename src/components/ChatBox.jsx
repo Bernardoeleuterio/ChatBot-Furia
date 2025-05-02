@@ -20,7 +20,7 @@ export default function ChatBox() {
     const perguntaLower = pergunta.toLowerCase();
     
 
-    if (perguntaLower.includes("proximo jogo")) return "O próximo jogo da FURIA ainda não foi devinido, fique ligado nas redes sociais para saber os próximos jogos";
+    if (perguntaLower.includes("proximo jogo")) return "O próximo jogo da FURIA será as 5:00 horas da manhã do dia 10 de maio  contra a The MongolZ na PGL Astana";
     if (perguntaLower.includes("capitão") || perguntaLower.includes("capitao")) return "O capitão do time de CS:GO é o Fallen!";
     if (perguntaLower.includes("camiseta")) return "Você pode comprar na loja oficial em loja.furia.gg!";
     if (perguntaLower.includes("resultado")) return "A FURIA perdeu o último jogo por 2x0!";
