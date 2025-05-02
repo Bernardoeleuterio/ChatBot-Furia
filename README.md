@@ -22,6 +22,8 @@ Ele responde perguntas frequentes como:
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5** – Estrutura da interface
+- **Vite** – Ferramenta de build e dev server rápida
+- **Node.js + npm** – Ambiente de execução e gerenciamento de pacotes
 - **CSS3** – Estilização do chatbot
 - **JavaScript (ES6)** – Lógica da conversa e manipulação do DOM
 - **Funções básicas de NLP (simples)** – Correspondência de palavras-chave em texto
@@ -29,10 +31,23 @@ Ele responde perguntas frequentes como:
 
 ---
 
-## 📦 Estrutura de Arquivos
+## ▶️ Como Executar Localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   npm install
+   npm run dev
+
+---
 
 ```plaintext
-chatbot-furia/
-├── index.html         # Estrutura da página com input e área de chat
-├── style.css          # Estilos do chatbot e responsividade
-└── script.js          # Lógica do chatbot (respostas, eventos, etc)
+src/
+├── components/
+│   └── ChatBox.jsx         # Componente principal da interface do chat
+│
+├── styles/
+│   └── App.css             # Estilização global da aplicação
+│
+├── App.jsx                 # Componente raiz da aplicação
+├── main.jsx                # Ponto de entrada da aplicação React
