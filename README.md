@@ -35,9 +35,9 @@ Ele responde perguntas frequentes como:
 
 
    
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   npm install
-   npm run dev
+- git clone https://github.com/seu-usuario/seu-repositorio.git
+- npm install
+- npm run dev
 
 ---
 
