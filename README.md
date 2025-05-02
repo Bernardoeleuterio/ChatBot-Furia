@@ -1,12 +1,37 @@
-# React + Vite
+# 🤖 Chatbot FURIA - Desafio Técnico FURIA Tech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é parte do Desafio Técnico da vaga de **Assistente de Engenharia de Software** da [FURIA Tech](https://furia.gg). O objetivo é criar uma interface conversacional para os fãs do time de CS da FURIA.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡 Sobre o Projeto
 
-## Expanding the ESLint configuration
+Este chatbot foi desenvolvido como uma **interface web simples**, com o objetivo de simular um atendimento automatizado para fãs da FURIA.  
+Ele responde perguntas frequentes como:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Qual é o time atual?
+- Quando é o próximo jogo?
+- Onde assistir aos jogos?
+- Quem é o coach?
+- Últimas contratações
+- Informações gerais da organização
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5** – Estrutura da interface
+- **CSS3** – Estilização do chatbot
+- **JavaScript (ES6)** – Lógica da conversa e manipulação do DOM
+- **Funções básicas de NLP (simples)** – Correspondência de palavras-chave em texto
+- **Normalize Unicode** – Para tratar entradas com e sem acentuação
+
+---
+
+## 📦 Estrutura de Arquivos
+
+```plaintext
+chatbot-furia/
+├── index.html         # Estrutura da página com input e área de chat
+├── style.css          # Estilos do chatbot e responsividade
+└── script.js          # Lógica do chatbot (respostas, eventos, etc)
