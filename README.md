@@ -33,7 +33,7 @@ Ele responde perguntas frequentes como:
 
 ## ▶️ Como Executar Localmente
 
-1. Clone o repositório:
+
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
    npm install
