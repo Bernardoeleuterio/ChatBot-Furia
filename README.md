@@ -34,12 +34,14 @@ Ele responde perguntas frequentes como:
 ## ▶️ Como Executar Localmente
 
 
-   ```bash
+   
    git clone https://github.com/seu-usuario/seu-repositorio.git
    npm install
    npm run dev
 
 ---
+
+## 📁 Estrutura do Projeto
 
 ```plaintext
 src/
