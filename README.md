@@ -28,6 +28,7 @@ Ele responde perguntas frequentes como:
 - **JavaScript (ES6)** – Lógica da conversa e manipulação do DOM
 - **Funções básicas de NLP (simples)** – Correspondência de palavras-chave em texto
 - **Normalize Unicode** – Para tratar entradas com e sem acentuação
+- **React** – Biblioteca JavaScript utilizada para criar interfaces de usuário reativas e componentizadas
 
 ---
 
